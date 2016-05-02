@@ -23,14 +23,14 @@ public class CalculatorSpec {
             assertEquals("The expected value should be 9",expectedMult,actualMult);
         }
         @Test
-        public void sumDiv() {
+        public void DivTest() {
             Calculator calculator = new Calculator();
             int expectedDiv = 3;
             int actualDiv = calculator.div(9, 3);
             assertEquals("The expected value should be 3", expectedDiv, actualDiv);
         }
         @Test
-        public void sumDiff() {
+        public void DiffTest() {
             Calculator calculator = new Calculator();
             int expectedDiff = 6;
             int actualDiff = calculator.diff(9, 3);
